@@ -1,0 +1,36 @@
+Epoch [1/5]
+Iter:      0,  Train Loss:   2.1,  Train Acc: 25.00%,  Val Loss:   1.6,  Val Acc: 44.00%,  Time: 0:00:03 *
+Iter:    100,  Train Loss:   1.2,  Train Acc: 62.50%,  Val Loss:   1.1,  Val Acc: 75.00%,  Time: 0:00:30 *
+Iter:    200,  Train Loss:   1.5,  Train Acc: 75.00%,  Val Loss:  0.98,  Val Acc: 66.00%,  Time: 0:00:56 *
+Epoch [2/5]
+Iter:    300,  Train Loss:  0.53,  Train Acc: 81.25%,  Val Loss:  0.95,  Val Acc: 70.25%,  Time: 0:01:23 *
+Iter:    400,  Train Loss:  0.37,  Train Acc: 75.00%,  Val Loss:  0.94,  Val Acc: 62.75%,  Time: 0:01:50 *
+Epoch [3/5]
+Iter:    500,  Train Loss:  0.43,  Train Acc: 81.25%,  Val Loss:  0.93,  Val Acc: 67.50%,  Time: 0:02:17 *
+Iter:    600,  Train Loss:  0.46,  Train Acc: 75.00%,  Val Loss:  0.92,  Val Acc: 67.50%,  Time: 0:02:43 *
+Epoch [4/5]
+Iter:    700,  Train Loss:   0.7,  Train Acc: 68.75%,  Val Loss:   1.0,  Val Acc: 74.50%,  Time: 0:03:09 
+Iter:    800,  Train Loss:  0.55,  Train Acc: 81.25%,  Val Loss:   1.1,  Val Acc: 71.75%,  Time: 0:03:35 
+Epoch [5/5]
+Iter:    900,  Train Loss:  0.45,  Train Acc: 81.25%,  Val Loss:  0.93,  Val Acc: 73.50%,  Time: 0:04:01 
+Iter:   1000,  Train Loss:   1.1,  Train Acc: 62.50%,  Val Loss:   1.1,  Val Acc: 75.25%,  Time: 0:04:27 
+Iter:   1100,  Train Loss:   0.7,  Train Acc: 68.75%,  Val Loss:   1.0,  Val Acc: 77.00%,  Time: 0:04:53 
+Test Loss:  0.99,  Test Acc: 67.00%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+     Neutral     0.6993    0.6605    0.6794       162
+    Positive     0.3151    0.6765    0.4299        34
+     Sarcasm     0.8993    0.6768    0.7723       198
+    Negative     0.1600    0.6667    0.2581         6
+
+    accuracy                         0.6700       400
+   macro avg     0.5184    0.6701    0.5349       400
+weighted avg     0.7576    0.6700    0.6979       400
+
+Confusion Matrix...
+[[107  43  12   0]
+ [ 10  23   1   0]
+ [ 36   7 134  21]
+ [  0   0   2   4]]
+Time usage: 0:00:01

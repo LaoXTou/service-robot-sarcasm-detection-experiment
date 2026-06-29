@@ -1,0 +1,5 @@
+=== bert_rag_seed1188 ===
+
+Iter:      0,  Train Loss:   1.6,  Train Acc: 25.00%,  Val Loss:   1.4,  Val Acc: 47.00%,  Time: 0:00:04 *
+Iter:    100,  Train Loss:   1.7,  Train Acc: 56.25%,  Val Loss:  0.71,  Val Acc: 76.75%,  Time: 0:01:13 *
+Iter:    300,  Train Loss:  0.47,  Train Acc: 87.50%,  Val Loss:  0.54,  Val Acc: 85.25%,  Time: 0:03:31 *

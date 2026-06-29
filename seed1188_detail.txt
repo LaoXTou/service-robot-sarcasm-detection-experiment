@@ -1,0 +1,30 @@
+=== Seed 1188 ===
+
+Baseline: Acc=65.75%  F1_macro=0.5221
+RAG:      Acc=86.50%  F1_macro=0.8055
+Delta:    Acc=+20.75pp  F1=+0.2834
+
+Per-class Baseline:
+     Neutral: P=0.6894 R=0.6852 F1=0.6873
+    Positive: P=0.2727 R=0.6176 F1=0.3784
+     Sarcasm: P=0.9203 R=0.6414 F1=0.7560
+       Anger: P=0.0000 R=0.0000 F1=0.0000
+Per-class RAG:
+     Neutral: P=0.8645 R=0.8272 F1=0.8454
+    Positive: P=0.8696 R=0.5882 F1=0.7018
+     Sarcasm: P=0.8698 R=0.9444 F1=0.9056
+       Anger: P=0.0000 R=0.0000 F1=0.0000
+
+Baseline CM:
+          Neutral Positive  Sarcasm    Anger
+   Neutral:      111       44        7        0
+  Positive:       11       21        2        0
+   Sarcasm:       39       12      127       20
+     Anger:        0        0        2        4
+
+RAG CM:
+          Neutral Positive  Sarcasm    Anger
+   Neutral:      134        2       26        0
+  Positive:       13       20        1        0
+   Sarcasm:        8        1      187        2
+     Anger:        0        0        1        5

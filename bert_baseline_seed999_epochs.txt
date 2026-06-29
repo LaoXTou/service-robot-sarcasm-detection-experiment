@@ -1,0 +1,8 @@
+=== bert_baseline_seed999 ===
+
+Iter:      0,  Train Loss:   1.4,  Train Acc: 50.00%,  Val Loss:   1.5,  Val Acc: 36.75%,  Time: 0:00:02 *
+Iter:    100,  Train Loss:   1.0,  Train Acc: 56.25%,  Val Loss:   1.1,  Val Acc: 70.00%,  Time: 0:00:31 *
+Iter:    300,  Train Loss:   0.6,  Train Acc: 62.50%,  Val Loss:   1.0,  Val Acc: 65.25%,  Time: 0:01:27 *
+Iter:    400,  Train Loss:  0.36,  Train Acc: 87.50%,  Val Loss:   1.0,  Val Acc: 67.25%,  Time: 0:01:56 *
+Iter:    500,  Train Loss:  0.55,  Train Acc: 81.25%,  Val Loss:  0.97,  Val Acc: 65.50%,  Time: 0:02:25 *
+Iter:    600,  Train Loss:  0.59,  Train Acc: 68.75%,  Val Loss:  0.86,  Val Acc: 65.25%,  Time: 0:02:54 *

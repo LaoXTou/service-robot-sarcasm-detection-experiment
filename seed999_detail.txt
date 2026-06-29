@@ -1,0 +1,30 @@
+=== Seed 999 ===
+
+Baseline: Acc=67.75%  F1_macro=0.5386
+RAG:      Acc=83.25%  F1_macro=0.7404
+Delta:    Acc=+15.50pp  F1=+0.2018
+
+Per-class Baseline:
+     Neutral: P=0.7089 R=0.6914 F1=0.7000
+    Positive: P=0.3286 R=0.6765 F1=0.4423
+     Sarcasm: P=0.9103 R=0.6667 F1=0.7697
+       Anger: P=0.0000 R=0.0000 F1=0.0000
+Per-class RAG:
+     Neutral: P=0.8947 R=0.7346 F1=0.8068
+    Positive: P=0.7000 R=0.6176 F1=0.6562
+     Sarcasm: P=0.8217 R=0.9545 F1=0.8832
+       Anger: P=0.0000 R=0.0000 F1=0.0000
+
+Baseline CM:
+          Neutral Positive  Sarcasm    Anger
+   Neutral:      112       40       10        0
+  Positive:       10       23        1        0
+   Sarcasm:       36        7      132       23
+     Anger:        0        0        2        4
+
+RAG CM:
+          Neutral Positive  Sarcasm    Anger
+   Neutral:      119        7       36        0
+  Positive:       10       21        3        0
+   Sarcasm:        4        2      189        3
+     Anger:        0        0        2        4

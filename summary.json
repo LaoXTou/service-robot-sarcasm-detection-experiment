@@ -1,0 +1,470 @@
+[
+  {
+    "seed": 1,
+    "baseline": {
+      "acc": 67.0,
+      "f1_macro": 0.5349,
+      "cm": [
+        [
+          107,
+          43,
+          12,
+          0
+        ],
+        [
+          10,
+          23,
+          1,
+          0
+        ],
+        [
+          36,
+          7,
+          134,
+          21
+        ],
+        [
+          0,
+          0,
+          2,
+          4
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.6993,
+          "recall": 0.6605,
+          "f1": 0.6794,
+          "support": 162,
+          "cm_recall": 0.6605
+        },
+        "Positive": {
+          "precision": 0.3151,
+          "recall": 0.6765,
+          "f1": 0.4299,
+          "support": 34,
+          "cm_recall": 0.6765
+        },
+        "Sarcasm": {
+          "precision": 0.8993,
+          "recall": 0.6768,
+          "f1": 0.7723,
+          "support": 198,
+          "cm_recall": 0.6768
+        },
+        "Anger": {
+          "cm_recall": 0.6667
+        }
+      }
+    },
+    "rag": {
+      "acc": 89.5,
+      "f1_macro": 0.8338,
+      "cm": [
+        [
+          146,
+          5,
+          11,
+          0
+        ],
+        [
+          12,
+          21,
+          1,
+          0
+        ],
+        [
+          9,
+          2,
+          186,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          5
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.8743,
+          "recall": 0.9012,
+          "f1": 0.8875,
+          "support": 162,
+          "cm_recall": 0.9012
+        },
+        "Positive": {
+          "precision": 0.75,
+          "recall": 0.6176,
+          "f1": 0.6774,
+          "support": 34,
+          "cm_recall": 0.6176
+        },
+        "Sarcasm": {
+          "precision": 0.9347,
+          "recall": 0.9394,
+          "f1": 0.937,
+          "support": 198,
+          "cm_recall": 0.9394
+        },
+        "Anger": {
+          "cm_recall": 0.8333
+        }
+      }
+    },
+    "delta_acc": 22.5,
+    "delta_f1": 0.2989
+  },
+  {
+    "seed": 42,
+    "baseline": {
+      "acc": 64.0,
+      "f1_macro": 0.5042,
+      "cm": [
+        [
+          110,
+          41,
+          11,
+          0
+        ],
+        [
+          10,
+          23,
+          1,
+          0
+        ],
+        [
+          32,
+          8,
+          119,
+          39
+        ],
+        [
+          0,
+          0,
+          2,
+          4
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.7237,
+          "recall": 0.679,
+          "f1": 0.7006,
+          "support": 162,
+          "cm_recall": 0.679
+        },
+        "Positive": {
+          "precision": 0.3194,
+          "recall": 0.6765,
+          "f1": 0.434,
+          "support": 34,
+          "cm_recall": 0.6765
+        },
+        "Sarcasm": {
+          "precision": 0.8947,
+          "recall": 0.601,
+          "f1": 0.719,
+          "support": 198,
+          "cm_recall": 0.601
+        },
+        "Anger": {
+          "cm_recall": 0.6667
+        }
+      }
+    },
+    "rag": {
+      "acc": 86.0,
+      "f1_macro": 0.7173,
+      "cm": [
+        [
+          138,
+          13,
+          11,
+          0
+        ],
+        [
+          4,
+          29,
+          1,
+          0
+        ],
+        [
+          10,
+          2,
+          173,
+          13
+        ],
+        [
+          0,
+          0,
+          2,
+          4
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.9079,
+          "recall": 0.8519,
+          "f1": 0.879,
+          "support": 162,
+          "cm_recall": 0.8519
+        },
+        "Positive": {
+          "precision": 0.6591,
+          "recall": 0.8529,
+          "f1": 0.7436,
+          "support": 34,
+          "cm_recall": 0.8529
+        },
+        "Sarcasm": {
+          "precision": 0.9251,
+          "recall": 0.8737,
+          "f1": 0.8987,
+          "support": 198,
+          "cm_recall": 0.8737
+        },
+        "Anger": {
+          "cm_recall": 0.6667
+        }
+      }
+    },
+    "delta_acc": 22.0,
+    "delta_f1": 0.2131
+  },
+  {
+    "seed": 1188,
+    "baseline": {
+      "acc": 65.75,
+      "f1_macro": 0.5221,
+      "cm": [
+        [
+          111,
+          44,
+          7,
+          0
+        ],
+        [
+          11,
+          21,
+          2,
+          0
+        ],
+        [
+          39,
+          12,
+          127,
+          20
+        ],
+        [
+          0,
+          0,
+          2,
+          4
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.6894,
+          "recall": 0.6852,
+          "f1": 0.6873,
+          "support": 162,
+          "cm_recall": 0.6852
+        },
+        "Positive": {
+          "precision": 0.2727,
+          "recall": 0.6176,
+          "f1": 0.3784,
+          "support": 34,
+          "cm_recall": 0.6176
+        },
+        "Sarcasm": {
+          "precision": 0.9203,
+          "recall": 0.6414,
+          "f1": 0.756,
+          "support": 198,
+          "cm_recall": 0.6414
+        },
+        "Anger": {
+          "cm_recall": 0.6667
+        }
+      }
+    },
+    "rag": {
+      "acc": 86.5,
+      "f1_macro": 0.8055,
+      "cm": [
+        [
+          134,
+          2,
+          26,
+          0
+        ],
+        [
+          13,
+          20,
+          1,
+          0
+        ],
+        [
+          8,
+          1,
+          187,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          5
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.8645,
+          "recall": 0.8272,
+          "f1": 0.8454,
+          "support": 162,
+          "cm_recall": 0.8272
+        },
+        "Positive": {
+          "precision": 0.8696,
+          "recall": 0.5882,
+          "f1": 0.7018,
+          "support": 34,
+          "cm_recall": 0.5882
+        },
+        "Sarcasm": {
+          "precision": 0.8698,
+          "recall": 0.9444,
+          "f1": 0.9056,
+          "support": 198,
+          "cm_recall": 0.9444
+        },
+        "Anger": {
+          "cm_recall": 0.8333
+        }
+      }
+    },
+    "delta_acc": 20.75,
+    "delta_f1": 0.2834
+  },
+  {
+    "seed": 999,
+    "baseline": {
+      "acc": 67.75,
+      "f1_macro": 0.5386,
+      "cm": [
+        [
+          112,
+          40,
+          10,
+          0
+        ],
+        [
+          10,
+          23,
+          1,
+          0
+        ],
+        [
+          36,
+          7,
+          132,
+          23
+        ],
+        [
+          0,
+          0,
+          2,
+          4
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.7089,
+          "recall": 0.6914,
+          "f1": 0.7,
+          "support": 162,
+          "cm_recall": 0.6914
+        },
+        "Positive": {
+          "precision": 0.3286,
+          "recall": 0.6765,
+          "f1": 0.4423,
+          "support": 34,
+          "cm_recall": 0.6765
+        },
+        "Sarcasm": {
+          "precision": 0.9103,
+          "recall": 0.6667,
+          "f1": 0.7697,
+          "support": 198,
+          "cm_recall": 0.6667
+        },
+        "Anger": {
+          "cm_recall": 0.6667
+        }
+      }
+    },
+    "rag": {
+      "acc": 83.25,
+      "f1_macro": 0.7404,
+      "cm": [
+        [
+          119,
+          7,
+          36,
+          0
+        ],
+        [
+          10,
+          21,
+          3,
+          0
+        ],
+        [
+          4,
+          2,
+          189,
+          3
+        ],
+        [
+          0,
+          0,
+          2,
+          4
+        ]
+      ],
+      "per_class": {
+        "Neutral": {
+          "precision": 0.8947,
+          "recall": 0.7346,
+          "f1": 0.8068,
+          "support": 162,
+          "cm_recall": 0.7346
+        },
+        "Positive": {
+          "precision": 0.7,
+          "recall": 0.6176,
+          "f1": 0.6562,
+          "support": 34,
+          "cm_recall": 0.6176
+        },
+        "Sarcasm": {
+          "precision": 0.8217,
+          "recall": 0.9545,
+          "f1": 0.8832,
+          "support": 198,
+          "cm_recall": 0.9545
+        },
+        "Anger": {
+          "cm_recall": 0.6667
+        }
+      }
+    },
+    "delta_acc": 15.5,
+    "delta_f1": 0.2018
+  }
+]

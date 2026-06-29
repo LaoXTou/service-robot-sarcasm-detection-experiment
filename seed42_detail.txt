@@ -1,0 +1,30 @@
+=== Seed 42 ===
+
+Baseline: Acc=64.00%  F1_macro=0.5042
+RAG:      Acc=86.00%  F1_macro=0.7173
+Delta:    Acc=+22.00pp  F1=+0.2131
+
+Per-class Baseline:
+     Neutral: P=0.7237 R=0.6790 F1=0.7006
+    Positive: P=0.3194 R=0.6765 F1=0.4340
+     Sarcasm: P=0.8947 R=0.6010 F1=0.7190
+       Anger: P=0.0000 R=0.0000 F1=0.0000
+Per-class RAG:
+     Neutral: P=0.9079 R=0.8519 F1=0.8790
+    Positive: P=0.6591 R=0.8529 F1=0.7436
+     Sarcasm: P=0.9251 R=0.8737 F1=0.8987
+       Anger: P=0.0000 R=0.0000 F1=0.0000
+
+Baseline CM:
+          Neutral Positive  Sarcasm    Anger
+   Neutral:      110       41       11        0
+  Positive:       10       23        1        0
+   Sarcasm:       32        8      119       39
+     Anger:        0        0        2        4
+
+RAG CM:
+          Neutral Positive  Sarcasm    Anger
+   Neutral:      138       13       11        0
+  Positive:        4       29        1        0
+   Sarcasm:       10        2      173       13
+     Anger:        0        0        2        4

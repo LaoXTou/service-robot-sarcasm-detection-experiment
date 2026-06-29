@@ -1,0 +1,4 @@
+Neutral
+Positive
+Sarcasm
+Negative

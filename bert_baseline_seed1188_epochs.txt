@@ -1,0 +1,6 @@
+=== bert_baseline_seed1188 ===
+
+Iter:      0,  Train Loss:   1.7,  Train Acc: 18.75%,  Val Loss:   1.5,  Val Acc: 24.50%,  Time: 0:00:02 *
+Iter:    100,  Train Loss:   1.2,  Train Acc: 62.50%,  Val Loss:  0.97,  Val Acc: 73.00%,  Time: 0:00:31 *
+Iter:    400,  Train Loss:  0.25,  Train Acc: 87.50%,  Val Loss:  0.94,  Val Acc: 61.50%,  Time: 0:01:56 *
+Iter:    600,  Train Loss:  0.42,  Train Acc: 81.25%,  Val Loss:  0.83,  Val Acc: 66.25%,  Time: 0:02:53 *

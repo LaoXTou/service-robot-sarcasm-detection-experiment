@@ -1,0 +1,58 @@
+{
+  "seed1": {
+    "baseline": {
+      "Neutral": 0.6605,
+      "Positive": 0.6765,
+      "Sarcasm": 0.6768,
+      "Anger": 0
+    },
+    "rag": {
+      "Neutral": 0.9012,
+      "Positive": 0.6176,
+      "Sarcasm": 0.9394,
+      "Anger": 0
+    }
+  },
+  "seed42": {
+    "baseline": {
+      "Neutral": 0.679,
+      "Positive": 0.6765,
+      "Sarcasm": 0.601,
+      "Anger": 0
+    },
+    "rag": {
+      "Neutral": 0.8519,
+      "Positive": 0.8529,
+      "Sarcasm": 0.8737,
+      "Anger": 0
+    }
+  },
+  "seed1188": {
+    "baseline": {
+      "Neutral": 0.6852,
+      "Positive": 0.6176,
+      "Sarcasm": 0.6414,
+      "Anger": 0
+    },
+    "rag": {
+      "Neutral": 0.8272,
+      "Positive": 0.5882,
+      "Sarcasm": 0.9444,
+      "Anger": 0
+    }
+  },
+  "seed999": {
+    "baseline": {
+      "Neutral": 0.6914,
+      "Positive": 0.6765,
+      "Sarcasm": 0.6667,
+      "Anger": 0
+    },
+    "rag": {
+      "Neutral": 0.7346,
+      "Positive": 0.6176,
+      "Sarcasm": 0.9545,
+      "Anger": 0
+    }
+  }
+}
